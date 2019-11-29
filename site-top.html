@@ -2,7 +2,7 @@
 <html lang="ja">
 <head>
 <title>尾大情報共有サイト（仮）</title>
-<link rel="stylesheet" href="grid-guide.css">
+<link rel="stylesheet" href="2part.css">
 
 <!--styleでcssのいれる-->
 
@@ -21,17 +21,146 @@
 <div class="serch"></div>
 <form action="cgi-bin/example.cgi" method="post">
 		<p>どんな情報が欲しいですカ</p>
-	<input type="search" size="80" name="search" placeholder="キーワードを入力">
+	<input type="search" size="50" name="search" placeholder="キーワードを入力">
 	<input type="submit" name="submit" value="検索" >
   </form>
 
 </div>
 
-<iframe src="NewInfo.html" width="600" height="150">
- インラインフレーム対応ブラウザでご覧いただけます。
-</iframe>
+<br>
+<br>
+<div class="wrappper">
+	<div class="newinfo">
+		<iframe src="NewInfo.html" width="400" height="150">
+ 		インラインフレーム対応ブラウザでご覧いただけます。
+		</iframe>
+	</div>
+	
+	<div class="contents">
+		<div id="genre-header">
+    </div>
+    <div class="cs_a" id="ocu-site-header">
+    </div>
+    <!-- header -->
+    <div class="" id=""></div>
+    <div class="genre" id="">
+        <div class="genre-top">
+            <h2>ジャンル一覧</h2>
+            <nav class="list-nav">
+                <ul>
+                    <li>
+                        <a class="upper" href="">
+                            <span>ジャンル一覧</span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="">
+                            <span>サービス一覧</span>
+                        </a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+        <div class="common">
+            <ul class="list">
+                <li>
+                    <div class="detail-l1">
+                        <p class="title">
+                            <a href="">大学</a>
+                        </p>
+                        <div class="child-list">
+                            <p>
+                                <a href="">
+                                    <span>授業</span>
+                                </a>
+                            </p>
+                            <p>
+                                <a href="">
+                                    <span>教科書</span>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="detail-l1">
+                        <p class="title">
+                            <a href="">娯楽</a>
+                        </p>
+                        <div class="child-list">
+                            <p>
+                                <a href="">
+                                    <span>イベント</span>
+                                </a>
+                            </p>
+                            <p>
+                                <a href="">
+                                    <span>ショッピング</span>
+                                </a>
+                            </p>
+                            <p>
+                                <a href="">
+                                    <span>飲食</span>
+                                </a>
+                            </p>
+                            <p>
+                                <a href="">
+                                    <span>インスタ映え</span>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="detail-l1">
+                        <p class="title">
+                            <a href="">アルバイト</a>
+                        </p>
+                        <div class="child-list">
+                            <p>
+                                <a href="">
+                                    <span>尾道</span>
+                                </a>
+                            </p>
+                            <p>
+                                <a href="">
+                                    <span>尾道周辺</span>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="detail-l1">
+                        <p class="title">
+                            <a href="">生活</a>
+                        </p>
+                        <div class="child-list">
+                            <p>
+                                <a href="">
+                                    <span>スーパー</span>
+                                </a>
+                            </p>
+                        </div>
+                    </div>
+                </li>
+                <li>
+                    <div class="detail-l1">
+                        <p class="title">
+                            <a href="">その他</a>
+                        </p>
+                    </div>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <div id="footer-jump"></div>
+	</div>
+</div>
 
-
+<!--フッタ内容-->
+<address>Copyright(C)2019 Onnomichi University 木村ゼミ</address>
+</footer>
 
 </body>
 </html>
