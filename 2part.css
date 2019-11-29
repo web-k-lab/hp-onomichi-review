@@ -1,9 +1,11 @@
-﻿.newinfo{
+﻿/*田中咲良*/
+
+.newinfo{
 	float:left;
 	width:70%
 }
 
 .contents{
-	float:none;
-	width-auto;
+	float:left;
+	width:30%
 }
