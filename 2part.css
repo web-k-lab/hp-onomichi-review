@@ -1,5 +1,10 @@
 ﻿/*田中咲良*/
 
+.img{
+	width: auto;
+	height: 400;
+}
+
 .newinfo{
 	float:left;
 	width:70%
