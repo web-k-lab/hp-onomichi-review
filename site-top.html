@@ -24,11 +24,13 @@
 
 
 <div class="serch">
-<form action="search" method="post">
-		<p>どんな情報が欲しいですカ</p>
-	<input type="search" size="70" name="search" placeholder="キーワードを入力">
-	<input type="submit"　onclick="location:href='search-result.html'" name="submit" value="検索" >
-  </form>
+        <p>どんな情報が欲しいですか？</p>
+        <form method="get" action="http://www.google.co.jp/search" target="_blank">
+            <input type="text" name="q" size="31" maxlength="255" value="">
+            <input type="submit" name="btng" value="検索">
+            <input type="hidden" name="hl" value="ja">
+            <input type="hidden" name="sitesearch" value="hp-onomichi-review.com">
+            </form>
 
 </div>
 
