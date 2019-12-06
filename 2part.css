@@ -8,9 +8,19 @@
 .newinfo{
 	float:left;
 	width:70%
+	
+}
+
+.postform{
+	float:left;
+	width:70%;
 }
 
 .contents{
 	float:left;
-	width:30%
+	width:30%;
+}
+
+footer#kimura{
+	position: fixed;
 }
