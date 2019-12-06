@@ -1,8 +1,12 @@
 @charset "utf-8";
 
+/* dev setting! */
+body > * {
+  border: 2px solid black;
+}
+
 body > * {
   text-align: center;
-  margin-bottom: 2rem;
 }
 
 progress {
