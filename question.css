@@ -2,11 +2,41 @@
 
 body > * {
   text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
-progress {
-  width: 90px;
-  height: 30px;
+.progress ul {
+  background-color: #eee;
+  border: 1px solid #ccc;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  width: 40%;
+  min-width: 400px;
+}
+
+.progress li {
+  display: inline-block;
+  height: 3rem;
+  line-height: 3rem;
+  margin: 0 auto;
+  text-align: center;
+  vertical-align: bottom;
+}
+
+.progress li:nth-child(odd) {
+  font-family: "Arial Black";
+  font-size: 1.2rem;
+  width: 3rem;
+}
+
+.progress li:nth-child(even) {
+  border-right: 1px solid #999;
+  font-family: Arial;
+  font-size: 1.2rem;
+  margin-right: 15px;
+  padding-right: 15px;
 }
 
 textarea {
