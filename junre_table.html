@@ -1,0 +1,617 @@
+<!DOCTYPE html>
+<html lang="ja">
+<!--ここのコードは他のHTML書くときにまだ使わないで！-->
+<!--OGPを利用-->
+
+<head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
+    <!-- Google Tag Manager -->
+    <meta property="og:site_name" content="サイト名" />
+    <meta property="og:title" content="タイトル" />
+    <meta property="og:type" content="トップページはwebsite、個別ページはarticle" />
+    <meta property="og:url" content="記事のURL" />
+    <meta property="og:image" content="サムネイル画像のURL" />
+    <meta property="og:description" content="記事のdescription（記事概要）" />
+    <meta property="fb:app_id" content="FacebookのアプリID" />
+    <meta property="og:locale" content="ja_JP" />
+    <script>
+        (function(w, d, s, l, i) {
+            w[l] = w[l] || [];
+            w[l].push({
+                "gtm.start": new Date().getTime(),
+                event: "gtm.js"
+            });
+            var f = d.getElementsByTagName(s)[0],
+                j = d.createElement(s),
+                dl = l != "dataLayer" ? "&l=" + l : "";
+            j.async = true;
+            j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+            f.parentNode.insertBefore(j, f);
+        })(window, document, "script", "dataLayer", "GTM-XXXX");
+    </script>
+    <!-- End Google Tag Manager -->
+    <meta charset="utf-8" />
+    <title>ジャンルごとに表示するページ</title>
+    <link href="https://.." rel="alternate" media="">
+    <meta name="description" content="尾道市立大学 情報共有サイト　尾大・尾道の様々な情報を紹介します！" />
+    <link href="android-app://com." rel="alternate">
+    <meta http-equiv="X-UA-Compatible" content="IE=Edge" />
+    <meta name="viewport" content="width=1000">
+    <meta name="format-detection" content="telephone=no">
+    <!-- Bing ウェブマスターツール-->
+    <meta name="msvalidate.01" content="..." />
+    <!--Twitter関係
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:site" content="@">
+    -->
+
+    <!--木村研究室です！-->
+    <link href="https://" rel="stylesheet" media="all">
+    <script src="...">
+    </script>
+
+    <meta content="article" property="og:type">
+    <meta content="尾大情報共有サイト" property="og:site_name ">
+    <meta content="授業情報 (大学) [OCU] " property="og:title ">
+    <meta content="尾道市立大学 情報共有サイト　尾大・尾道の様々な情報を紹介します！こちらは尾大 学生に便利な授業情報を紹介するページです。" property="og:description ">
+    <meta content="https:// " property="og:url ">
+    <meta content="https://.gif " property="og:image ">
+    <meta content="" property="fb:page_id ">
+    <meta content="" property="fb:app_id ">
+    <link href="https:// " rel="canonical ">
+
+    <link href="https://" rel="next">
+
+    <!--JSなので保留-->
+    <script id="js-advertisement-restaurant-search" data-category="RC13" data-area="nil"></script>
+    <script src="h:ttps//www.googletagservices.com/tag/js/gpt.js" async="async"></script>
+    <script>
+        var googletag = googletag || {};
+        googletag.cmd = googletag.cmd || [];
+    </script>
+
+    <!--Adomik randomizer for ad call key value targeting-->
+    <script type="text/javascript">
+        window.Adomik = window.Adomik || {};
+        Adomik.randomAdGroup = function() {
+            var rand = Math.random();
+            switch (false) {
+                case !(rand < 0.09):
+                    return "ad_ex" + (Math.floor(100 * rand));
+                case !(rand < 0.10):
+                    return "ad_bc";
+                default:
+                    return "ad_opt";
+            }
+        };
+    </script>
+
+    <script>
+        var advertisementRestaurantSearch = document.getElementById('js-advertisement-restaurant-search');
+        var area = advertisementRestaurantSearch.getAttribute('data-area');
+        var category = advertisementRestaurantSearch.getAttribute('data-category');
+
+        googletag.cmd.push(function() {
+            googletag.defineSlot('/116070306/t/list/140x830_l', [140.0, 830.0], 'div-gpt-ad-t/list/140x830_l').setTargeting('t_area1', [area]).setTargeting('t_category', [category]).setTargeting('ad_group', Adomik.randomAdGroup()).setTargeting('ad_h', (new Date).getUTCHours()).addService(googletag.pubads());
+            googletag.defineSlot('/116070306/t/list/140x830_r', [140.0, 831.0], 'div-gpt-ad-t/list/140x830_r').setTargeting('t_area1', [area]).setTargeting('t_category', [category]).setTargeting('ad_group', Adomik.randomAdGroup()).setTargeting('ad_h', (new Date).getUTCHours()).addService(googletag.pubads());
+            googletag.defineSlot('/116070306/t/list/770x180', [770.0, 180.0], 'div-gpt-ad-t/list/770x180').setTargeting('t_area1', [area]).setTargeting('t_category', [category]).setTargeting('ad_group', Adomik.randomAdGroup()).setTargeting('ad_h', (new Date).getUTCHours()).addService(googletag.pubads());
+            googletag.defineSlot('/116070306/t/tieup/areatop1', [370.0, 62.0], 'div-gpt-ad-t/tieup/areatop1').setTargeting('ad_group', Adomik.randomAdGroup()).setTargeting('ad_h', (new Date).getUTCHours()).addService(googletag.pubads());
+            googletag.defineSlot('/116070306/t/tieup/areatop2', [370.0, 62.0], 'div-gpt-ad-t/tieup/areatop2').setTargeting('ad_group', Adomik.randomAdGroup()).setTargeting('ad_h', (new Date).getUTCHours()).addService(googletag.pubads());
+            googletag.defineSlot('/116070306/t/tieup/areatop3', [370.0, 62.0], 'div-gpt-ad-t/tieup/areatop3').setTargeting('ad_group', Adomik.randomAdGroup()).setTargeting('ad_h', (new Date).getUTCHours()).addService(googletag.pubads());
+            googletag.defineSlot('/116070306/t/tieup/areatop4', [370.0, 62.0], 'div-gpt-ad-t/tieup/areatop4').setTargeting('ad_group', Adomik.randomAdGroup()).setTargeting('ad_h', (new Date).getUTCHours()).addService(googletag.pubads());
+            googletag.defineSlot('/116070306/t/tieup/areatop5', [370.0, 62.0], 'div-gpt-ad-t/tieup/areatop5').setTargeting('ad_group', Adomik.randomAdGroup()).setTargeting('ad_h', (new Date).getUTCHours()).addService(googletag.pubads());
+            googletag.defineSlot('/116070306/t/tieup/areatop6', [370.0, 62.0], 'div-gpt-ad-t/tieup/areatop6').setTargeting('ad_group', Adomik.randomAdGroup()).setTargeting('ad_h', (new Date).getUTCHours()).addService(googletag.pubads());
+            googletag.defineSlot('/116070306/t/tieup/areatop7', [370.0, 62.0], 'div-gpt-ad-t/tieup/areatop7').setTargeting('ad_group', Adomik.randomAdGroup()).setTargeting('ad_h', (new Date).getUTCHours()).addService(googletag.pubads());
+            googletag.defineSlot('/116070306/t/tieup/areatop8', [370.0, 62.0], 'div-gpt-ad-t/tieup/areatop8').setTargeting('ad_group', Adomik.randomAdGroup()).setTargeting('ad_h', (new Date).getUTCHours()).addService(googletag.pubads());
+            googletag.pubads().enableSingleRequest();
+            googletag.pubads().collapseEmptyDivs();
+            googletag.enableServices();
+        });
+    </script>
+
+    <script src="https://img.com/javascripts"></script>
+
+    <link href="https://" rel="shortcut icon">
+    <link href="https://" rel="apple-touch-icon-precomposed">
+    <meta name="msapplication-TileImage" content="http://">
+    <meta name="msapplication-TileColor" content="#f6ab09">
+    <meta name="csrf-param" content="authenticity_token">
+    <meta name="csrf-token" content="gb/lEKAgqYmkpqdojFTCpCRhpRhqfmBDk/UMWO3DuYsU8NGxECbIAzWXf/nXvMegyRZMhE65u5tyOqB4wD6FfQ==">
+
+    <script src="">
+    </script>
+    <script src=" https://.js " type="text/javascript ">
+    </script>
+    <link href="https://.com " rel="preload " as="script ">
+    <script src="https://.com " type="text/javascript "></script>
+    <link href="https://.com " rel="preload " as="script ">
+    <script src="https://.com " type="text/javascript "></script>
+    <script src="https://.js " async=" "></script>
+    <link href="https://html " rel="prefetch ">
+    <script src="https://"></script>
+    <script src="https://"></script>
+    <script src="https://"></script>
+    <script src="https://"></script>
+    <script src="https:// "></script>
+    <script src="https://"></script>
+    <script src="https://wcscs." type="text/javascript " charset="UTF-8 " async=" "></script>
+    <script src="https://wcsad." type="text/javascript " charset="UTF-8 " async=" "></script>
+
+</head>
+
+<body class="rst" id="list">
+
+    <!-- Google Tag Manager (noscript) -->
+    <noscript><iframe></iframe>src="https://www.googletagmanager.com/ns.html?id=GTM-XXXX " height="0 " width="0 "style="display:none;visibility:hidden "></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <div class="c-modal c-modal--s is-hidden" id="js-rstlst-setting-searchrst-edit"></div>
+
+    <div class="linkedit-window" id="restaurant_link_window" style="display: none"></div>
+    <div id="form_authenticity_token" style="display: none;" data-token="r3eIvvKW3ZM65jSYbLFhzoEhQKWsxlovnoZg6o3+B4s6OLwfQpC8GavX7Ak3WWTKbFapOYgBgfd/SczKoAM7fQ=="></div>
+    <div class="u-hidden" id="js-booking-params" data-fetch-url="https://" data-fetch-url-initial-vacancy="https://" data-fetch-url-member="https://" data-fetch-url-date="https://" data-booking-enabled="1"></div>
+    <div class="js-rstlst-search-box" id="rstlst-search-box"></div>
+    <div class="rstlst-research-window" id="rstlst-line-box"></div>
+
+    <a name="pagetop" id="pagetop"></a>
+    <div id="js-global-header">
+        <div class="l-container p-header-wrapper p-header-wrapper--top">
+            <div class="l-contents l-contents--fixed">
+                <div class="p-header">
+                    <div class="p-header__title">
+                        <h1>授業情報(尾大) </h1>
+                    </div>
+                    <div class="p-header__nav js-welcome-wrapper" id="welcome">
+
+                        <div class="c-modal is-hidden p-modal-login" id="js-login-modal-wrap">
+                            <div class="c-modal__header">
+                                <p class="c-modal__title">無料会員登録/ログイン</p>
+                                <p class="c-modal__close js-modal-close">閉じる</p>
+                            </div>
+                            <div class="login-modal__contents c-modal__content">
+                                <div class="login-modal__inner">
+                                    <p class="js-login-message login-modal__message u-hidden"></p>
+                                    <div class="p-login-panel p-login-panel--modal">
+                                        <p class="p-login-panel__facebook-lead">
+                                            Facebookで情報を共有できます。
+                                            <span class="p-login-panel__facebook-smtext">※ユーザーの許可なしに、SNSへの投稿は行いません。</span>
+                                        </p>
+                                        <div class="p-login-panel__single">
+                                            <form action="https://" method="post" accept-charset="UTF-8"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="inhhgnZPGzqlmQ3tRqZ3RKO6jSjDfEh43GhDrvlHF8ZFdSEjM3Qrdgk8pz8W/1O/KZJ6APCYT47A9MtKiNqopQ==">
+                                                <input name="encourage_follow" id="encourage_follow_facebook" type="hidden" value="0">
+                                                <button class="c-btn c-btn--full p-login-btn p-login-btn--facebook p-login-panel__btn" type="submit" value="Facebook">
+                  Facebook
+                </button>
+                                            </form>
+                                        </div>
+                                        <ul class="p-login-panel__list">
+                                            <li class="p-login-panel__list-item p-login-panel__list-item--half">
+                                                <form action="https://" method="post" accept-charset="UTF-8"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="rVz1cgISQK/nJL++l+vwxHwD3ZdvcYRLqlOwmec+/sFiUbXTRylw40uBFWzHstQ/9isqv1yVg722zzh9lqNBog==">
+                                                    <input name="encourage_follow" id="encourage_follow_google" type="hidden" value="0">
+                                                    <button class="c-btn c-btn--full p-login-btn p-login-btn--google p-login-panel__btn" type="submit" value="Google">
+                    Google
+                  </button>
+                                                </form>
+                                            </li>
+                                            <li class="p-login-panel__list-item p-login-panel__list-item--half">
+                                                <form action="https://" method="post" accept-charset="UTF-8"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="529h+Bp3N7sVups/K8SFqZOP0661+OHGB4HtKJpJjOooYiFZX0wH97kfMe17naFSGackhoYc5jAbHWXM69QziQ==">
+                                                    <input name="encourage_follow" id="encourage_follow_yahoo" type="hidden" value="0">
+                                                    <button class="c-btn c-btn--full p-login-btn p-login-btn--yahoo p-login-panel__btn" type="submit" value="Yahoo">
+                    Yahoo! JAPAN ID
+                  </button>
+                                                </form>
+                                            </li>
+                                            <li class="p-login-panel__list-item p-login-panel__list-item--half">
+                                                <form action="https://" method="post" accept-charset="UTF-8"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="RsI2MI31PRv2vgUyXfIM5IIUssz2bJoPnAfM3jCd1E+Jz3aRyM4NV1obr+ANqygfCDxF5MWInfmAm0Q6QQBrLA==">
+                                                    <input name="encourage_follow" id="encourage_follow_line" type="hidden" value="0">
+                                                    <button class="c-btn c-btn--full p-login-btn p-login-btn--line p-login-panel__btn" type="submit" value="line">
+                    LINE
+                  </button>
+                                                </form>
+                                            </li>
+                                            <li class="p-login-panel__list-item p-login-panel__list-item--half">
+                                                <form action="https://" method="post" accept-charset="UTF-8"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="FkQERM+qE3X+YhoqVlMMWzS6unkRyAXwkZZtISVrM+7ZSUTlipEjOVLHsPgGCiigvpJNUSIsAgaNCuXFVPaMjQ==">
+                                                    <input name="encourage_follow" id="encourage_follow_twitter" type="hidden" value="0">
+                                                    <button class="c-btn c-btn--full p-login-btn p-login-btn--twitter p-login-panel__btn" type="submit" value="Twitter">
+                    Twitter
+                  </button>
+                                                </form>
+                                            </li>
+                                            <li class="p-login-panel__list-item p-login-panel__list-item--full">
+                                                <form action="https://" method="post" accept-charset="UTF-8"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="CU2gPjDCLdmAg2o34z9q0UxRXQp+MYnWhSrauNKfcBvGQOCfdfkdlSwmwOWzZk4qxnmqIk3VjiCZtlJcowLPeA==">
+                                                    <input name="encourage_follow" id="encourage_follow_kakaku" type="hidden" value="0">
+                                                    <button class="c-btn c-btn--full p-login-btn p-login-btn--kakaku-mail p-login-panel__btn" type="submit" value="メールアドレス（価格.com ID）">
+                    メールアドレス
+                  </button>
+                                                </form>
+                                            </li>
+                                        </ul>
+                                        <div class="p-login-panel__carrier">
+                                            <p class="p-login-panel__carrier-lead">携帯電話会社提供のIDをお持ちの方</p>
+                                            <ul class="p-login-panel__carrier-list">
+                                                <li class="p-login-panel__carrier-item">
+                                                    <form action="https://" method="post" accept-charset="UTF-8"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="vehV0r31PoYEo+tNU6yy7fc1sx+3NyzyHg/StFQiwiNy5RVz+M4OyqgGQZ8D9ZYWfR1EN4TTKwQCk1pQJb99QA==">
+                                                        <button name="button" class="p-login-panel__carrier-target" type="submit" value="docomo">docomo ID</button>
+                                                    </form>
+                                                </li>
+                                                <li class="p-login-panel__carrier-item">
+                                                    <form action="https://" method="post" accept-charset="UTF-8"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="SXpfbzBPf/VZh0XmC+StwMFvHFM9ni2LpwSfJBx90mWGdx/OdXRPufUi7zRbvYk7S0frew56Kn27mBfAbeBtBg==">
+                                                        <button name="button" class="p-login-panel__carrier-target" type="submit" value="au">au ID</button>
+                                                    </form>
+                                                </li>
+                                                <li class="p-login-panel__carrier-item">
+                                                    <form action="https://" method="post" accept-charset="UTF-8"><input name="utf8" type="hidden" value="✓"><input name="authenticity_token" type="hidden" value="QvFivUyo64Vb0bIKcm2Sg5eBXCg0FB0HGbXehCerwCiN/CIcCZPbyfd0GNgiNLZ4HamrAAfwGvEFKVZgVjZ/Sw==">
+                                                        <button name="button" class="p-login-panel__carrier-target" type="submit" value="softbank">My SoftBank認証</button>
+                                                    </form>
+                                                </li>
+                                            </ul>
+                                        </div>
+                                        <ul class="p-login-panel__help-list">
+                                            <li class="p-login-panel__help-item">
+                                                <a href="https:///">ログインできない場合</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <ul class="p-user-menu js-exec-welcome">
+                            <li class="p-user-menu__item">
+                                <a class="p-user-menu__target" href="https://">尾大情報共有サイトとは</a>
+                            </li>
+                            <li class="p-user-menu__item">
+                                <a class="p-user-menu__target" href="https://ssl.">無料会員登録</a>
+                            </li>
+                            <li class="p-user-menu__item">
+                                <a class="p-user-menu__target" href="https://ssl."><span class="c-badge-tpoint c-badge-tpoint--s"><i>ヘルプ</i></span></a>
+                            </li>
+                            <li class="p-user-menu__item">
+                                <a class="p-user-menu__target" href="https://ssl.">お問い合わせ</a>
+                            </li>
+                            <li class="p-user-menu__item">
+                                <a class="p-user-menu__target" href="https://ssl.">行ったお店</a>
+                            </li>
+                            <li class="p-user-menu__item">
+                                <a class="p-user-menu__target p-user-menu__target--hozon" href="https://"><span class="c-badge-save"><i>保存済み</i></span>保存済み</a>
+                            </li>
+                            <li class="p-user-menu__item">
+                                <a class="js-open-login-modal p-user-menu__target" href="#">ログイン</a>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="global-header-search" id="js-global-header-search" style="padding-top: 0px;">
+
+            <div class="l-container p-header-wrapper p-header-wrapper--bottom">
+                <div class="l-contents l-contents--fixed">
+                    <div class="js-search-suggest-datas" id="suggest_datas" style="display:none;" data-multiple-suggest-flg="0" data-no_suggest_flg="" data-lng="" data-lat="" data-area_id="" data-area_datatype=""></div>
+                    <div id="multi-suggest" style="display:none;"></div>
+                    <div id="js-sa-user-input" style="display:none;" data-value=""></div>
+                    <div class="p-header js-adjust-position-nav" style="left: auto;">
+                        <p class="p-header__logo">
+                            <a title="尾大情報共有サイト トップへ" class="p-header__logo-img" href="https://">尾大報共有サイトTOPへ</a>
+                        </p>
+
+                        <div class="p-header__search p-global-search-suggest">
+
+                            <form name="FrmSrchFreeWord" class="p-global-search " id="rstsearch_form" action="https://" method="get" accept-charset="UTF-8">
+                                <input name="LstKind" type="hidden" value="1">
+                                <input name="voluntary_search" id="voluntary_search" type="hidden" value="1">
+                                <input name="lid" id="lid" type="hidden" value="hd_search1">
+                                <div class="p-global-search-suggest__wrap">
+                                    <div class="js-header-input-wrap p-global-search__input-wrap p-global-search__input-wrap--area">
+                                        <input name="sa" class="p-global-search__input js-header-val js-search-area-input p-global-search-suggest__input" id="sa" type="text" size="15" maxlength="50" placeholder="ジャンル [例:大学]" value="" autocomplete="off">
+                                        <div class="js-header-search-clear-area p-global-search__clear-btn p-global-search-suggest__clear-btn">
+                                            <i>クリア</i>
+                                        </div>
+                                        <div class="p-global-search__suggest-error js-header-search-area-notification" id="search-notification" style="display: none;">
+                                            <p>検索されたキーワードに一致する情報がありません。入力内容をご確認ください。</p>
+                                        </div>
+                                        <div class="p-global-search__search-error js-search-suggest-error" id="search-error" style="display: none;">
+                                            <p class="p-global-search__search-error-text">
+                                                <span>検索されたキーワードに一致する情報がありません。入力内容を変更して、再度検索してください。</span>
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="js-header-input-wrap p-global-search__input-wrap p-global-search__input-wrap--key">
+                                        <input name="sk" class="p-global-search__input js-header-val js-search-keyword-input p-global-search-suggest__input" id="sk" type="text" size="30" maxlength="50" placeholder="キーワード [例:授業、教科書・レジュメ、ゼミ]" value="" autocomplete="off">
+                                        <div class="js-header-search-clear-keyword p-global-search__clear-btn p-global-search-suggest__clear-btn">
+                                            <i>クリア</i>
+                                        </div>
+                                    </div>
+
+
+                                    <div class="p-global-search__search-wrap">
+                                        <input name="hfc" type="hidden" value="1">
+                                        <button name="form_submit" class="p-global-search__search-btn gly-a-search" id="js-global-search-btn" type="submit">
+                      <i>検索</i>
+                    </button>
+                                    </div>
+                                    <div class="js-header-search-suggest p-global-search-suggest__suggest-wrap"></div>
+                                </div>
+                            </form>
+
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <div id="breadcrumb-wrap">
+            <div id="location-wrap">
+                <div id="location">
+                    <div class="clearfix" id="location-breadcrumbs-wrap">
+                        <span class="home">ホーム</span>
+                        <div itemtype="http://" itemscope="">
+                            <a href="site-top.html" itemprop="url">
+                                <span itemprop="title">尾大情報共有サイト</span>
+                            </a>
+                        </div>
+                        <div><strong class="now"><span>授業</span></strong></div>
+                    </div>
+                </div>
+                <div class="navi-count">
+                    <a href="/sitemap/"><strong>326</strong>件</a>
+                    <span class="line">｜</span><strong>32</strong>口コミ
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="container">
+
+        <div class="content-index-data" data-action="list" data-controller="list/hoge" data-type="com_from"></div>
+        <div class="content-index-data" data-type="welcome"></div>
+        <div class="content-index-data" data-type="buttons"></div>
+        <div class="content-index-data" data-type="areas" data-area2="" data-area1="" data-pref="0"></div>
+        <div class="content-index-data" data-type="genres" data-cat3="120" data-cat2="37" data-cat1="7" data-cat0="1"></div>
+        <div class="content-index-data" data-type="sort_annotation"></div>
+        <div class="content-index-data" data-type="get_token"></div>
+        <div class="content-index-data" data-type="get_follow_reviewers"></div>
+        <div id="is_ajax_bookmark" style="display:none;" data-value="1"></div>
+        <div class="content-index-data" data-type="bookmark_buttons" data-value="13202993,13217607,40047216,13195839,28054726,27105546,13193861,27095801,13186516,13240249,13154948,5008837,13163446,26019493,26007183,13233533,13213850,14059267,27110599,13040389"></div>
+        <div class="u-hidden" id="js-visit-form-data" data-help-url-best-shot="http://help" data-help-url-review-img-manual="http://help" data-help-url-review-img-guide="http://help" data-help-url-review-rule="http://help" data-help-url-review-guide="http://help"
+            data-price-list='[["－",0],["～￥999",1],["￥1,000～￥1,999",2],["￥2,000～￥2,999",3],["￥3,000～￥3,999",4],["￥4,000～￥4,999",5],["￥5,000～￥5,999",6],["￥6,000～￥7,999",7],["￥8,000～￥9,999",8],["￥10,000～￥14,999",9],["￥15,000～￥19,999",10],["￥20,000～￥29,999",11],["￥30,000～￥39,999",13],["￥40,000～￥49,999",14],["￥50,000～￥59,999",15],["￥60,000～￥79,999",16],["￥80,000～￥99,999",17],["￥100,000～",18]]'></div>
+        <div class="u-hidden" id="js-bookmarks-static-data" data-fetch-url="/simple_review" data-login-url="login-form.html"></div>
+        <div class="content-index-data" data-type="rst_search_setting_modal"></div>
+
+        <script type="application/ld+json">
+            {
+                "@context": "http:/.org",
+                "@type": "ItemList",
+                "itemListElement": [{
+                    "@type": "ListItem",
+                    "position": 1,
+                    "url": "https://"
+                }, {
+                    "@type": "ListItem",
+                    "position": 2,
+                    "url": "https:/"
+                }, {
+                    "@type": "ListItem",
+                    "position": 3,
+                    "url": "https://"
+                }, {
+                    "@type": "ListItem",
+                    "position": 4,
+                    "url": "https://"
+                }, {
+                    "@type": "ListItem",
+                    "position": 5,
+                    "url": "https://"
+                }, {
+                    "@type": "ListItem",
+                    "position": 6,
+                    "url": "https://"
+                }, {
+                    "@type": "ListItem",
+                    "position": 7,
+                    "url": "https://"
+                }, {
+                    "@type": "ListItem",
+                    "position": 8,
+                    "url": "https:/"
+                }, {
+                    "@type": "ListItem",
+                    "position": 9,
+                    "url": "https://"
+                }, {
+                    "@type": "ListItem",
+                    "position": 10,
+                    "url": "https://"
+                }, {
+                    "@type": "ListItem",
+                    "position": 11,
+                    "url": "https://"
+                }, {
+                    "@type": "ListItem",
+                    "position": 12,
+                    "url": "https://"
+                }, {
+                    "@type": "ListItem",
+                    "position": 13,
+                    "url": "https://"
+                }, {
+                    "@type": "ListItem",
+                    "position": 14,
+                    "url": "https://"
+                }, {
+                    "@type": "ListItem",
+                    "position": 15,
+                    "url": "https://"
+                }, {
+                    "@type": "ListItem",
+                    "position": 16,
+                    "url": "https://"
+                }, {
+                    "@type": "ListItem",
+                    "position": 17,
+                    "url": "https://"
+                }, {
+                    "@type": "ListItem",
+                    "position": 18,
+                    "url": "https://"
+                }, {
+                    "@type": "ListItem",
+                    "position": 19,
+                    "url": "https://"
+                }, {
+                    "@type": "ListItem",
+                    "position": 20,
+                    "url": "https://"
+                }]
+            }
+        </script>
+
+        <div class="u-hidden" id="js-cassette-site-catalyst" data-not-site-catalyst="1"></div>
+
+        <div class="u-hidden" id="js-rstlist-common-conf" data-is-vac-net="false" data-idshow-request-booking="false"></div>
+
+        <!-- contents * start -->
+        <div class="rstlist-contents clearfix" id="contents">
+            <!-- 空席カレンダー modal -->
+            <div class="js-booking-modal-target c-modal c-modal--s is-hidden">
+                <div class="c-modal__header">
+                    <p class="c-modal__title">
+                        イベント日程
+                    </p>
+                    <p class="c-modal__close js-modal-close">
+                        閉じる
+                    </p>
+                </div>
+                <div class="c-modal__contents">
+                    <div class="c-modal__inner">
+                        <div class="p-booking-calendar">
+                            <div class="js-booking-modal-tpoint-wrapper"></div>
+                            <div class="js-rstlist-booking-modal rstlist-booking-modal"></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- column-main * start -->
+            <div class="layout5-main" id="column-main">
+
+                <div class="list-condition">
+                    <div class="list-condition__header">
+                        <h2 class="list-condition__result">
+                            <strong class="list-condition__title">尾大の授業情報</strong>
+                            <span class="list-condition__count">316</span>
+                            <span class="list-condition__unit">件</span>
+                        </h2>
+                        <div class="list-commentary">
+                            <p class="list-commentary__trigger" id="js-rstlst-commentary-trigger">解説</p>
+                            <p class="list-commentary__lead" id="js-rstlst-commentary-lead" style="display: none;">
+                                尾大の授業情報が316件見つかりました。
+                            </p>
+                        </div>
+                    </div>
+                    <div class="list-condition__body">
+
+                        <div class="list-condition__action">
+                            <div class="list-condition__change">
+                                <p class="list-condition__change-item list-condition__change-item--modal">
+                                    <a class="js-open-search-form" href="#" data-catalyst-code="rl_searchdetail_1">検索条件を変更</a>
+                                </p>
+                            </div>
+                        </div>
+
+
+                        <ul class="list-condition__condition-list">
+                            <li class="list-condition__condition-item">
+                                <a class="list-condition__condition-target" href="https:/" rel="nofollow">
+                    授業
+                </a>
+                            </li>
+                        </ul>
+                        <div class="list-condition__suggest">
+                            <p class="list-condition__suggest-title">さらに絞り込む</p>
+                            <ul class="list-condition__suggest-text">
+                                <li class="list-condition__suggest-text-funnel">
+                                    <a class="list-condition__suggest-text-word" href="">経情報</a>
+                                    <a class="list-condition__suggest-text-word" href="">日文</a>
+                                    <a class="list-condition__suggest-text-word" href="">美術</a>
+                                    <a class="list-condition__suggest-text-word" href="">レジュメ・教科書</a>
+                                    <a class="list-condition__suggest-text-word" href="">ゼミ</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+
+                <div id="rstlst-access">
+                    <ul class="navi-rstlst">
+                        <li class="navi-rstlst__tab navi-rstlst__tab--trend is-active">
+                            <strong class="navi-rstlst__label navi-rstlst__label--trend">
+                <span class="navi-rstlst__text navi-rstlst__text--trend">標準</span>
+              </strong>
+                        </li>
+                        <li class="navi-rstlst__tab navi-rstlst__tab--rank">
+                            <a class="navi-rstlst__label navi-rstlst__label--rank" href="https://">
+                                <span class="navi-rstlst__text navi-rstlst__text--rank">ランキング</span>
+                            </a>
+                        </li>
+                        <li class="navi-rstlst__tab navi-rstlst__tab--review">
+                            <a class="navi-rstlst__label navi-rstlst__label--review" href="https://">
+                                <span class="navi-rstlst__text navi-rstlst__text--review">口コミ数順</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="list-controll clearfix">
+                    <div class="list-controll__frame">
+                        <p class="c-page-count">
+                            <span class="c-page-count__num"><strong>1</strong></span>～<span class="c-page-count__num"><strong>20</strong></span> 件を表示
+                            <span class="c-page-count__line">／</span> 全 <span class="c-page-count__num"><strong>316</strong></span> 件
+                        </p>
+
+                    </div>
+                </div>
+
+                <ul class="js-rstlist-info rstlist-info" data-rd-cond="rstlst-0-japan-0-1-0-0-0-0-0-0-0-0-0-0-0-2-1" data-rd-pos="cassette" data-base="https://rd.tabelog.com/" data-rd-type="add_info">
+
+                    <li class="list-rst js-bookmark js-rst-cassette-wrap js-is-need-redirect js-done" data-rst-id="13202993" data-detail-url="https://tabelog.com/tokyo/A1304/A130401/13202993/">
+                        <div class="list-rst__bookmark js-void-opennewtab">
+                            <div class="p-btn-bkm list-rst__bookmark-item">
+                                <div class="p-btn-bkm__item js-bookmark-btn">
+                                    <div class="c-icon-visit"><button name="js-login" class="c-icon-visit__target" type="submit"><span class="c-icon-visit__text">行った</span></button></div>
+                                </div>
+                                <div class="p-btn-bkm__item js-hozon-btn">
+                                    <div class="c-icon-save"><button name="js-login" class="c-icon-save__target" type="submit">保存</button></div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="list-pagenation">
+                            <div class="c-pagination">
+                                <ul class="c-pagination__list">
+                                    <li class="c-pagination__item"><strong class="c-pagination__num is-current">1</strong></li>
+                                    <li class="c-pagination__item"><a class="c-pagination__num" href="https:///2/">2</a></li>
+                                    <li class="c-pagination__item"><a class="c-pagination__num" href="https:///3/">3</a></li>
+                                    <li class="c-pagination__item"><span class="c-pagination__ellipsis"></span></li>
+                                    <li class="c-pagination__item"><a class="c-pagination__num" href="https://">10</a></li>
+                                    <a class="c-pagination__arrow c-pagination__arrow--next" href="https:///2/" rel="next">次の20件</a>
+                    </li>
+                    </ul>
+                    </div>
+
+                    </div>
+
+
+                    <footer>
+
+                        <address>Copyright&copy; 2019 Onnomichi University 木村ゼミ</address>
+
+                    </footer>
+
+</body>
+
+
+</html>
