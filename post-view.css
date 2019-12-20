@@ -1,0 +1,81 @@
+@charset "utf-8";
+
+body > * {
+  text-align: left;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.progress ul {
+  background-color: #eee;
+  border: 1px solid #ccc;
+  list-style-type: none;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: left;
+  width: 40%;
+  min-width: 400px;
+}
+
+.progress li {
+  display: inline-block;
+  height: 3rem;
+  line-height: 3rem;
+  margin: 0 auto;
+  text-align: left;
+  vertical-align: bottom;
+}
+
+.progress li:nth-child(odd) {
+  font-family: "Arial Black";
+  font-size: 1.2rem;
+  width: 3rem;
+}
+
+.progress li:nth-child(even) {
+  border-right: 1px solid #999;
+  font-family: Arial;
+  font-size: 1.2rem;
+  margin-right: 15px;
+  padding-right: 15px;
+}
+
+textarea {
+  width: 480px;
+  height: 240px;
+}
+
+select {
+  width: 160px;
+  height: 40px;
+}
+
+button {
+  width: 80px;
+  height: 40px;
+}
+
+.box1 {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    color: #000000;/*文字色*/
+    background: #FFF;
+    border: solid 3px #3c84f7;/*線*/
+}
+.box1 p {
+    margin: 0; 
+    padding: 0;
+}
+.box2 {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    color: #000000;/*文字色*/
+    background: #FFF;
+    border: solid 3px #71a8ff;/*線*/
+    border-radius: 10px;/*角の丸み*/
+}
+.box2 p {
+    margin: 0; 
+    padding: 0;
+}
