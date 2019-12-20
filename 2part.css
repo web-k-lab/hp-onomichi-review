@@ -1,5 +1,7 @@
 ﻿/*田中咲良*/
 
+
+
 .img{
 	width: auto;
 	height: 400;
@@ -17,10 +19,16 @@
 }
 
 .contents{
-	float:left;
-	width:30%;
+	display:webkit-flex;
+	display:flex;
+}
+
+.detail-l1:last-of-type{
+	position:-webkit-sticky;
+	position:sticky;
+	top:0;
 }
 
 footer#kimura{
-	position: fixed;
+	margin-top:auto;
 }
