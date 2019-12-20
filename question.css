@@ -5,6 +5,8 @@ body > * {
   font-family: Arial, Helvetica, sans-serif;
 }
 
+/* progress section */
+
 .progress ul {
   background-color: #eee;
   border: 1px solid #ccc;
@@ -39,9 +41,24 @@ body > * {
   padding-right: 15px;
 }
 
+/* form section */
+
+form > *{
+  width: 0 auto; 
+  margin-bottom: 1rem;
+}
+
+input#title{
+  width: 480px;
+  font-size: larger;
+}
+
 textarea {
   width: 480px;
+  max-width: 480px;
   height: 240px;
+  font-size: large;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 select {
