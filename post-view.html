@@ -1,28 +1,93 @@
 <!DOCTYPE html>
+<!--花岡-->
 <html lang="ja">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge" />
     <title>情報ページ</title>
+    <link rel="stylesheet" href="color.css" />
+    <link rel="stylesheet" href="post-view.css" />
+    <style>
+       body > * {
+        background-color: #fff;
+        color: black;
+        border: 1px dotted black;
+      }
+    </style>
+   
   </head>
 
   <body>
-    <h1>---タイトル---</h1>
-
+      
+  <header>
+    <p>
+      <a href="site-top.html">
+        尾大情報共有サイト(仮)
+      </a>
+    </p>
+  </header>
+    <!--javascriptを使ってデータ反映↓-->
     <main>
+    <div class="box1">
+      <h2>---タイトル---</h2>
       <div>
-        <!--ここに投稿内容-->
+        <!--ヘッダー画像-->
+        <a href=""><img src="" alt=""/></a>
       </div>
       <div>
-        <button type="submit">コメントを投稿</button>
+        投稿内容
+      </div>
+    
+      <div>
+        <button type="button" onclick="scrollToComment()">
+          コメントを投稿
+        </button>
       </div>
       <div>
-        <!--タグのリンク先↓-->
-        <a href="">タグ1</a>
-        <a href="">タグ2</a>
-        <a href="">タグ3</a>
+        <!--ジャンルのリンク先↓-->
+        <a href="">選択されたジャンル名</a>
       </div>
+      <br />
+    </div>
+      <div>
+        <!--コメント欄-->
+        <h2>コメント</h2>
+
+        <div class="box2">
+          <p>名前1</p>
+          <p>コメント内容1</p>
+        </div>
+
+        <div class="box2">
+          <p>名前2</p>
+          <p>コメント内容2</p>
+        </div>
+
+        <div class="box2">
+          <p>名前3</p>
+          <p>コメント内容3</p>
+        </div>
+       
+        <a href="">もっと見る</a>
+      </div>
+      <!--javascriptを使ってデータ反映↑-->
+
+      <!--コメント投稿フォーム-->
+      <h2 id="target">コメント投稿フォーム</h2>
+      <div>
+        <textarea name="q-content" id="" cols="10" rows="5"></textarea>
+      </div>
+
+      <div>
+        <button type="submit" onclick="ConfirmLogin()">投稿</button>
+      </div>
+
     </main>
+    <footer>
+      <a href="site-top.html">トップページに戻る</a>
+      <address>Copyright&copy; 2019 Onomichi University 木村ゼミ</address>
+    </footer>
+    <script src="post-view.js"></script>
   </body>
 </html>

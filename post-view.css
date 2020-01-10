@@ -1,11 +1,9 @@
 @charset "utf-8";
 
 body > * {
-  text-align: center;
+  text-align: left;
   font-family: Arial, Helvetica, sans-serif;
 }
-
-/* progress section */
 
 .progress ul {
   background-color: #eee;
@@ -13,7 +11,7 @@ body > * {
   list-style-type: none;
   margin: 0 auto;
   padding: 2rem;
-  text-align: center;
+  text-align: left;
   width: 40%;
   min-width: 400px;
 }
@@ -23,7 +21,7 @@ body > * {
   height: 3rem;
   line-height: 3rem;
   margin: 0 auto;
-  text-align: center;
+  text-align: left;
   vertical-align: bottom;
 }
 
@@ -41,24 +39,9 @@ body > * {
   padding-right: 15px;
 }
 
-/* form section */
-
-form > *{
-  width: 0 auto; 
-  margin-bottom: 1rem;
-}
-
-input#title{
-  width: 480px;
-  font-size: larger;
-}
-
 textarea {
   width: 480px;
-  max-width: 480px;
   height: 240px;
-  font-size: large;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 select {
@@ -69,4 +52,30 @@ select {
 button {
   width: 80px;
   height: 40px;
+}
+
+.box1 {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    color: #000000;/*文字色*/
+    background: #FFF;
+    border: solid 3px #3c84f7;/*線*/
+}
+.box1 p {
+    margin: 0; 
+    padding: 0;
+}
+.box2 {
+    padding: 0.5em 1em;
+    margin: 2em 0;
+    font-weight: bold;
+    color: #000000;/*文字色*/
+    background: #FFF;
+    border: solid 3px #71a8ff;/*線*/
+    border-radius: 10px;/*角の丸み*/
+}
+.box2 p {
+    margin: 0; 
+    padding: 0;
 }
