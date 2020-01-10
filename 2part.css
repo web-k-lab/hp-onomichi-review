@@ -10,12 +10,13 @@
 .newinfo{
 	float:left;
 	width:70%
-	
+	display:flex;	
 }
 
 .postform{
 	float:left;
 	width:70%;
+	
 }
 
 .contents{
