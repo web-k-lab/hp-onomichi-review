@@ -40,12 +40,18 @@
 
     <!-- 質問内容 -->
     <main>
-      <h2>質問内容</h2>
-      <p>hogehoge</p>
-      <h3>ジャンル</h3>
-      <p>hogehoge</p>
-      <p>hogehoge</p>
-      <p>hogehoge</p>
+      <p>titile</p>
+<?php
+    echo $_REQUEST['title']
+  ?>
+  <p>details</p>
+  <?php
+    echo $_REQUEST['details']
+    ?>
+    <p>genre</p>
+    <?php
+    echo $_REQUEST['genre']
+    ?>
     </main>
 
     <div>

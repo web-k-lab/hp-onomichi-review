@@ -31,16 +31,12 @@
     <!-- 質問内容 -->
     <main class="content">
       <h2>質問内容</h2>
-      <form action="" method="post">
+      <form action="check-question.php" method="post">
         <input type="text" name="title" id="title" />
-      </form>
-      <form action="" method="post">
         <textarea name="details" id="details"></textarea>
-      </form>
       <div>
         <h3>質問ジャンル</h3>
-        <form action="" method="post">
-          <select name="" id="">
+          <select name="genre" id="genre">
             <option value="none">--選んでください--</option>
             <optgroup label="大学">
               <option value="caliculam">授業</option>
@@ -61,13 +57,13 @@
             </optgroup>
             <option value="other">その他</option>
           </select>
-        </form>
+        </div>
+      </main>
+      
+      <div>
+        <input type="submit" value="確認">    
       </div>
-    </main>
-
-    <div>
-      <button type="button" onclick="getForm()">次へ</button>
-    </div>
+    </form>
 
     <footer>
       <a href="site-top.html">トップページに戻る</a>
