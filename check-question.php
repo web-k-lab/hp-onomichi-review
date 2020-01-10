@@ -7,14 +7,6 @@
     <title>質問ページ - 質問確認</title>
     <link rel="stylesheet" href="color.css" />
     <link rel="stylesheet" href="question.css" />
-    <style>
-      /* develop section's tempolary setting */
-      body > * {
-        background-color: #fff;
-        color: black;
-        border: 1px dotted black;
-      }
-    </style>
   </head>
 
   <body>
