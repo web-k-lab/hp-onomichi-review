@@ -30,7 +30,7 @@
     <!--javascriptを使ってデータ反映↓-->
     <main>
     <div class="box1">
-      <h2>---タイトル---</h2>
+      <h2 class="title">---タイトル---</h2>
       <div>
         <!--ヘッダー画像-->
         <a href=""><img src="" alt=""/></a>
@@ -53,33 +53,53 @@
       <div>
         <!--コメント欄-->
         <h2>コメント</h2>
+        <ul class="list">
+          <li class="box2">
+            <p class="name">名前1</p>
+            <p>コメント内容1</p></li>
+          <li class="box2">
+            <p class="name">名前2</p>
+            <p>コメント内容2</p></li>
+          <li class="box2">
+            <p class="name">名前3</p>
+            <p>コメント内容3</p></li>
+          <li class="box2">
+            <p class="name">名前4</p>
+            <p>コメント内容4</p></li>
 
-        <div class="box2">
-          <p>名前1</p>
-          <p>コメント内容1</p>
+            <li class="box2 hidden">
+              <p class="name">名前5</p>
+              <p>コメント内容5</p></li>
+            <li class="box2 hidden">
+               <p class="name">名前6</p>
+              <p>コメント内容6</p></li>
+            <li class="box2 hidden">
+              <p class="name">名前7</p>
+              <p>コメント内容7</p></li>
+            <li class="box2 hidden">
+              <p class="name">名前8</p>
+              <p>コメント内容8</p></li>    
+            <li class="box2 hidden">
+              <p class="name">名前9</p>
+              <p>コメント内容9</p></li>
+            <li class="box2 hidden">
+              <p class="name">名前10</p>
+              <p>コメント内容10</p></li>    
+        </ul>
+        <div class="moreview">
+          <button type="submit">もっと見る</button>
         </div>
 
-        <div class="box2">
-          <p>名前2</p>
-          <p>コメント内容2</p>
-        </div>
 
-        <div class="box2">
-          <p>名前3</p>
-          <p>コメント内容3</p>
-        </div>
-       
-        <a href="">もっと見る</a>
-      </div>
       <!--javascriptを使ってデータ反映↑-->
 
       <!--コメント投稿フォーム-->
-      <h2 id="target">コメント投稿フォーム</h2>
+      <h2>コメント投稿フォーム</h2>
       <div>
         <textarea name="q-content" id="" cols="10" rows="5"></textarea>
       </div>
 
-      <div>
+      <div id="target">
         <button type="submit" onclick="ConfirmLogin()">投稿</button>
       </div>
 

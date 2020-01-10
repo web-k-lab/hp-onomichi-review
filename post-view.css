@@ -1,5 +1,7 @@
 @charset "utf-8";
 
+.hidden { display: none; }
+
 body > * {
   text-align: left;
   font-family: Arial, Helvetica, sans-serif;
@@ -50,7 +52,7 @@ select {
 }
 
 button {
-  width: 80px;
+  width: 120px;
   height: 40px;
 }
 
@@ -78,4 +80,12 @@ button {
 .box2 p {
     margin: 0; 
     padding: 0;
+}
+
+.name{
+  color:#3c84f7;
+}
+
+.title{
+  color:#3c84f7;
 }
